@@ -1,0 +1,47 @@
+{
+  "name": "@4cron/job-template",
+  "displayName": "Job Template",
+  "version": "0.0.0",
+  "description": "A template for creating Cronicle jobs",
+  "module": "./index.js",
+  "main": "./index.js",
+  "exports": "./index.js",
+  "type": "module",
+  "license": "MIT",
+  "homepage": "https://github.com/4lch4/Cronicle-Jobs",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/4lch4/Cronicle-Jobs.git"
+  },
+  "keywords": [
+    "4lch4",
+    "4cron",
+    "cronicle",
+    "batch-jobs",
+    "job-scheduling",
+    "templates",
+    "job-template",
+    "typescript",
+    "nodejs",
+    "prettier",
+    "bun",
+    "bun-sh"
+  ],
+  "author": {
+    "name": "4lch4",
+    "email": "hey@4lch4.email",
+    "url": "https://4lch4.com"
+  },
+  "bugs": {
+    "email": "bugs@4lch4.email",
+    "url": "https://github.com/4lch4/Cronicle-Jobs/issues"
+  },
+  "dependencies": {
+    "@4lch4/logger": "^1.0.0"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2"
+  }
+}
